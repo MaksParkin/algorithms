@@ -6,7 +6,7 @@ import random
 
 size = 10
 array = [random.uniform(0, 50) for i in range(size)]
-print(array)
+print(f"Случайный массив в промежутке [0; 50){array}")
 
 
 def merge_sorting(x):
@@ -38,4 +38,4 @@ def merge_sorting(x):
     return x
 
 
-print(merge_sorting(array))
+print(f"Сортировка по возрастанию: {merge_sorting(array)}")
